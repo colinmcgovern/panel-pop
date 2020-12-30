@@ -6,6 +6,7 @@
 */
 
 #include "EndlessGame.h"
+#include "../debug.h"
 
 #include <SDL2/SDL_timer.h>
 
@@ -19,6 +20,8 @@ EndlessGame::EndlessGame() :
     Game(),
     _board(),
     _highScore(ConfigHandler::getInstance().getEndlessHighScore()) {
+
+        debug("EndlessGame");
 
 }
 

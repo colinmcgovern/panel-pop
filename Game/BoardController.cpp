@@ -6,8 +6,10 @@
  */
 
 #include "BoardController.h"
+#include "../debug.h"
 
 BoardController::BoardController(Board &b) : _board(b) {
+	debug("BoardController");
 }
 
 BoardController::~BoardController() {

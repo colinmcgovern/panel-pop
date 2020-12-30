@@ -6,6 +6,7 @@
  */
 
 #include "Board.h"
+#include "../debug.h"
 
 #include <iostream>
 
@@ -30,8 +31,11 @@ Board::Board() :
     _panic(false),
     _score(0),
     _countdownState(3) {
-    fillRandom();
-    fillBufferRow();
+
+    	debug("Board");
+    	
+	    fillRandom();
+	    fillBufferRow();
 }
 
 void Board::setEventHandler(BoardEventHandler *eh) {

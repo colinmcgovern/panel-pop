@@ -6,12 +6,15 @@
  */
 
 #include "VsGame.h"
+#include "../debug.h"
 
 #include <SDL2/SDL_timer.h>
 
 #include "BoardEventHandler.h"
 #include "GameEventHandler.h"
 #include "GarbageBlock.h"
+
+#include <iostream>
 
 VsGame::VsGame() :
     Game(),
@@ -21,6 +24,7 @@ VsGame::VsGame() :
     _p2MatchPoints(0),
     _p1Points(0),
     _p2Points(0) {
+        debug("VsGame");
 }
 
 void VsGame::handleEnd() {

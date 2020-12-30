@@ -6,6 +6,7 @@
  */
 
 #include "GarbageBlock.h"
+#include "../debug.h"
 
 GarbageBlock::GarbageBlock(int x, int y, int w, int h, GarbageBlockType t) :
     _x(x),
@@ -20,7 +21,10 @@ GarbageBlock::GarbageBlock(int x, int y, int w, int h, GarbageBlockType t) :
     _falling(false),
     _initialFall(true),
     _explOrder(0) {
-    fillBufferRow();
+
+        debug("GarbageBlock");
+
+        fillBufferRow();
 }
 
 GarbageBlock::~GarbageBlock() {

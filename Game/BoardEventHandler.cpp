@@ -6,6 +6,7 @@
  */
 
 #include "BoardEventHandler.h"
+#include "../debug.h"
 
 #include <SDL2/SDL_mixer.h>
 
@@ -24,13 +25,16 @@ BoardEventHandler::BoardEventHandler(GameRenderer &gr, int boardId) :
     _combo(false),
     _chain(false),
     _blockFall(false) {
-    if (boardId == 0) {
-        _boardXPos = GameRenderer::BOARD0_X;
-        _boardYPos = GameRenderer::BOARD0_Y;
-    } else if (boardId == 1) {
-        _boardXPos = GameRenderer::BOARD1_X;
-        _boardYPos = GameRenderer::BOARD1_Y;
-    }
+
+        debug("BoardEventHandler");
+        
+        if (boardId == 0) {
+            _boardXPos = GameRenderer::BOARD0_X;
+            _boardYPos = GameRenderer::BOARD0_Y;
+        } else if (boardId == 1) {
+            _boardXPos = GameRenderer::BOARD1_X;
+            _boardYPos = GameRenderer::BOARD1_Y;
+        }
 
 }
 
