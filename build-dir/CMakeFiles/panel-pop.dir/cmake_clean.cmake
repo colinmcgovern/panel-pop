@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/panel-pop.dir/Main.cpp.o"
+  "CMakeFiles/panel-pop.dir/debug.cpp.o"
   "CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o"
   "CMakeFiles/panel-pop.dir/Game/Block.cpp.o"
   "CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o"

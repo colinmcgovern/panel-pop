@@ -101,6 +101,7 @@ CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o
 CMakeFiles/panel-pop.dir/Game/Block.cpp.o
  /home/colin/Documents/panel-pop/Game/Block.cpp
  /home/colin/Documents/panel-pop/Game/Block.h
+ /home/colin/Documents/panel-pop/debug.h
 CMakeFiles/panel-pop.dir/Game/Board.cpp.o
  /home/colin/Documents/panel-pop/Game/Block.h
  /home/colin/Documents/panel-pop/Game/Board.cpp
@@ -1207,3 +1208,6 @@ CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o
  /usr/include/SDL2/SDL_video.h
  /usr/include/SDL2/begin_code.h
  /usr/include/SDL2/close_code.h
+CMakeFiles/panel-pop.dir/debug.cpp.o
+ /home/colin/Documents/panel-pop/debug.cpp
+ /home/colin/Documents/panel-pop/debug.h

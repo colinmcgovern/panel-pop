@@ -1473,6 +1473,33 @@ States/VsGameState.cpp.s:
 	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/States/VsGameState.cpp.s
 .PHONY : States/VsGameState.cpp.s
 
+debug.o: debug.cpp.o
+
+.PHONY : debug.o
+
+# target to build an object file
+debug.cpp.o:
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/debug.cpp.o
+.PHONY : debug.cpp.o
+
+debug.i: debug.cpp.i
+
+.PHONY : debug.i
+
+# target to preprocess a source file
+debug.cpp.i:
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/debug.cpp.i
+.PHONY : debug.cpp.i
+
+debug.s: debug.cpp.s
+
+.PHONY : debug.s
+
+# target to generate assembly for a file
+debug.cpp.s:
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/debug.cpp.s
+.PHONY : debug.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1632,6 +1659,9 @@ help:
 	@echo "... States/VsGameState.o"
 	@echo "... States/VsGameState.i"
 	@echo "... States/VsGameState.s"
+	@echo "... debug.o"
+	@echo "... debug.i"
+	@echo "... debug.s"
 .PHONY : help
 
 

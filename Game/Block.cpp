@@ -8,6 +8,8 @@
 #include "Block.h"
 #include <stdlib.h>
 
+#include "../debug.h"
+
 Block::Block() :
     _state(NORMAL),
     _color(COUNT),
@@ -19,7 +21,7 @@ Block::Block() :
     _explosionTicks(0),
     _explosionAnimTicks(0),
     _explosionTimer(0) {
-
+        debug_print("Block created");
 }
 
 Block::~Block() {

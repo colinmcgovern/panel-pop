@@ -3,6 +3,8 @@
 
 #include "debug.h"
 
-void debug(string message){
+using namespace std;
+
+void debug_print(string message){
 	std::cout << message << std::endl;
 }

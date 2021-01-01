@@ -7,19 +7,21 @@
 
 #include "KeyboardController.h"
 #include "../Config/InputConfig.h"
-#include "../debug.h"
 
 #include <SDL2/SDL.h>
 
 #include "Board.h"
 #include "../InputEvents/KeyboardKey.h"
 
-KeyboardController::GarbageBlock(Board &b, InputConfig &c) :
+#include "../debug.h"
+
+KeyboardController::KeyboardController(Board &b, InputConfig &c) :
         BoardController(b),
         _config(c),
         _directionHeld(NONE),
         _holdBegin(0) {
-            debug("GarbageBlock");
+
+            debug_print("GameEventHandler created");  
 }
 
 void KeyboardController::tick() {

@@ -6,6 +6,7 @@
  */
 
 #include "GarbageBlock.h"
+
 #include "../debug.h"
 
 GarbageBlock::GarbageBlock(int x, int y, int w, int h, GarbageBlockType t) :
@@ -22,9 +23,9 @@ GarbageBlock::GarbageBlock(int x, int y, int w, int h, GarbageBlockType t) :
     _initialFall(true),
     _explOrder(0) {
 
-        debug("GarbageBlock");
+        debug_print("GameEventHandler created");
 
-        fillBufferRow();
+    fillBufferRow();
 }
 
 GarbageBlock::~GarbageBlock() {

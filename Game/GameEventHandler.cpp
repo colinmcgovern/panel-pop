@@ -6,18 +6,19 @@
  */
 
 #include "GameEventHandler.h"
-#include "../debug.h"
 
 #include <SDL2/SDL_mixer.h>
 
 #include "../SDLContext.h"
+
+#include "../debug.h"
 
 GameEventHandler::GameEventHandler() :
     _SDLContext(SDLContext::getInstance()),
     _countdownState(-1),
     _songIntro(true) {
 
-        debug("GameEventHandler");
+        debug_print("GameEventHandler created");
 
 }
 

@@ -6,7 +6,6 @@
  */
 
 #include "BoardEventHandler.h"
-#include "../debug.h"
 
 #include <SDL2/SDL_mixer.h>
 
@@ -15,6 +14,8 @@
 #include "../Rendering/ComboPopup.h"
 #include "../SDLContext.h"
 #include "Board.h"
+
+#include "../debug.h"
 
 BoardEventHandler::BoardEventHandler(GameRenderer &gr, int boardId) :
     _gameRenderer(gr),
@@ -26,8 +27,8 @@ BoardEventHandler::BoardEventHandler(GameRenderer &gr, int boardId) :
     _chain(false),
     _blockFall(false) {
 
-        debug("BoardEventHandler");
-        
+        debug_print("BoardEventHandler created");
+
         if (boardId == 0) {
             _boardXPos = GameRenderer::BOARD0_X;
             _boardYPos = GameRenderer::BOARD0_Y;

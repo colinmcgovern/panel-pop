@@ -97,6 +97,8 @@ Block.h
 /home/colin/Documents/panel-pop/Game/Block.h
 stdlib.h
 -
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/Block.h
 list
@@ -137,8 +139,6 @@ Board.h
 /home/colin/Documents/panel-pop/Game/BoardEventHandler.cpp
 BoardEventHandler.h
 /home/colin/Documents/panel-pop/Game/BoardEventHandler.h
-../debug.h
-/home/colin/Documents/panel-pop/debug.h
 SDL2/SDL_mixer.h
 -
 ../Rendering/BoardRenderer.h
@@ -151,6 +151,8 @@ SDL2/SDL_mixer.h
 /home/colin/Documents/panel-pop/SDLContext.h
 Board.h
 /home/colin/Documents/panel-pop/Game/Board.h
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/BoardEventHandler.h
 ../Rendering/GameRenderer.h
@@ -159,8 +161,6 @@ Board.h
 /home/colin/Documents/panel-pop/Game/EndlessGame.cpp
 EndlessGame.h
 /home/colin/Documents/panel-pop/Game/EndlessGame.h
-../debug.h
-/home/colin/Documents/panel-pop/debug.h
 SDL2/SDL_timer.h
 -
 ../Config/ConfigHandler.h
@@ -169,6 +169,8 @@ BoardEventHandler.h
 /home/colin/Documents/panel-pop/Game/BoardEventHandler.h
 GameEventHandler.h
 /home/colin/Documents/panel-pop/Game/GameEventHandler.h
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/EndlessGame.h
 Board.h
@@ -179,12 +181,12 @@ Game.h
 /home/colin/Documents/panel-pop/Game/Game.cpp
 Game.h
 /home/colin/Documents/panel-pop/Game/Game.h
-../debug.h
-/home/colin/Documents/panel-pop/debug.h
 SDL2/SDL_timer.h
 -
 GameEventHandler.h
 /home/colin/Documents/panel-pop/Game/GameEventHandler.h
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/Game.h
 stdint.h
@@ -197,12 +199,12 @@ memory
 /home/colin/Documents/panel-pop/Game/GameEventHandler.cpp
 GameEventHandler.h
 /home/colin/Documents/panel-pop/Game/GameEventHandler.h
-../debug.h
-/home/colin/Documents/panel-pop/debug.h
 SDL2/SDL_mixer.h
 -
 ../SDLContext.h
 /home/colin/Documents/panel-pop/SDLContext.h
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/GameEventHandler.h
 cstdint
@@ -223,14 +225,14 @@ KeyboardController.h
 /home/colin/Documents/panel-pop/Game/KeyboardController.h
 ../Config/InputConfig.h
 /home/colin/Documents/panel-pop/Config/InputConfig.h
-../debug.h
-/home/colin/Documents/panel-pop/debug.h
 SDL2/SDL.h
 -
 Board.h
 /home/colin/Documents/panel-pop/Game/Board.h
 ../InputEvents/KeyboardKey.h
 /home/colin/Documents/panel-pop/InputEvents/KeyboardKey.h
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/KeyboardController.h
 BoardController.h
@@ -243,8 +245,6 @@ BoardController.h
 /home/colin/Documents/panel-pop/Game/VsGame.cpp
 VsGame.h
 /home/colin/Documents/panel-pop/Game/VsGame.h
-../debug.h
-/home/colin/Documents/panel-pop/debug.h
 SDL2/SDL_timer.h
 -
 BoardEventHandler.h
@@ -253,8 +253,8 @@ GameEventHandler.h
 /home/colin/Documents/panel-pop/Game/GameEventHandler.h
 GarbageBlock.h
 /home/colin/Documents/panel-pop/Game/GarbageBlock.h
-iostream
--
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Game/VsGame.h
 Board.h
@@ -1012,7 +1012,17 @@ StateManager.h
 GameState.h
 /home/colin/Documents/panel-pop/States/GameState.h
 
+/home/colin/Documents/panel-pop/debug.cpp
+iostream
+-
+string
+-
+debug.h
 /home/colin/Documents/panel-pop/debug.h
+
+/home/colin/Documents/panel-pop/debug.h
+iostream
+-
 string
 -
 

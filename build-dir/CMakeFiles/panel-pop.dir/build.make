@@ -81,9 +81,33 @@ CMakeFiles/panel-pop.dir/Main.cpp.o.provides: CMakeFiles/panel-pop.dir/Main.cpp.
 CMakeFiles/panel-pop.dir/Main.cpp.o.provides.build: CMakeFiles/panel-pop.dir/Main.cpp.o
 
 
+CMakeFiles/panel-pop.dir/debug.cpp.o: CMakeFiles/panel-pop.dir/flags.make
+CMakeFiles/panel-pop.dir/debug.cpp.o: ../debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/panel-pop.dir/debug.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/debug.cpp.o -c /home/colin/Documents/panel-pop/debug.cpp
+
+CMakeFiles/panel-pop.dir/debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panel-pop.dir/debug.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colin/Documents/panel-pop/debug.cpp > CMakeFiles/panel-pop.dir/debug.cpp.i
+
+CMakeFiles/panel-pop.dir/debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panel-pop.dir/debug.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colin/Documents/panel-pop/debug.cpp -o CMakeFiles/panel-pop.dir/debug.cpp.s
+
+CMakeFiles/panel-pop.dir/debug.cpp.o.requires:
+
+.PHONY : CMakeFiles/panel-pop.dir/debug.cpp.o.requires
+
+CMakeFiles/panel-pop.dir/debug.cpp.o.provides: CMakeFiles/panel-pop.dir/debug.cpp.o.requires
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/debug.cpp.o.provides.build
+.PHONY : CMakeFiles/panel-pop.dir/debug.cpp.o.provides
+
+CMakeFiles/panel-pop.dir/debug.cpp.o.provides.build: CMakeFiles/panel-pop.dir/debug.cpp.o
+
+
 CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o: ../Game/GameEventHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o -c /home/colin/Documents/panel-pop/Game/GameEventHandler.cpp
 
 CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/panel-pop.dir/Game/Block.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/Block.cpp.o: ../Game/Block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/panel-pop.dir/Game/Block.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/panel-pop.dir/Game/Block.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/Block.cpp.o -c /home/colin/Documents/panel-pop/Game/Block.cpp
 
 CMakeFiles/panel-pop.dir/Game/Block.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/panel-pop.dir/Game/Block.cpp.o.provides.build: CMakeFiles/panel-pop.d
 
 CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o: ../Game/BoardController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o -c /home/colin/Documents/panel-pop/Game/BoardController.cpp
 
 CMakeFiles/panel-pop.dir/Game/BoardController.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o.provides.build: CMakeFiles/p
 
 CMakeFiles/panel-pop.dir/Game/Game.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/Game.cpp.o: ../Game/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/panel-pop.dir/Game/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/panel-pop.dir/Game/Game.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/Game.cpp.o -c /home/colin/Documents/panel-pop/Game/Game.cpp
 
 CMakeFiles/panel-pop.dir/Game/Game.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/panel-pop.dir/Game/Game.cpp.o.provides.build: CMakeFiles/panel-pop.di
 
 CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.o: ../Game/GarbageBlock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.o -c /home/colin/Documents/panel-pop/Game/GarbageBlock.cpp
 
 CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/panel-pop.dir/Game/GarbageBlock.cpp.o.provides.build: CMakeFiles/pane
 
 CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.o: ../Game/KeyboardController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.o -c /home/colin/Documents/panel-pop/Game/KeyboardController.cpp
 
 CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/panel-pop.dir/Game/KeyboardController.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/panel-pop.dir/Game/Board.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/Board.cpp.o: ../Game/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/panel-pop.dir/Game/Board.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/panel-pop.dir/Game/Board.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/Board.cpp.o -c /home/colin/Documents/panel-pop/Game/Board.cpp
 
 CMakeFiles/panel-pop.dir/Game/Board.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/panel-pop.dir/Game/Board.cpp.o.provides.build: CMakeFiles/panel-pop.d
 
 CMakeFiles/panel-pop.dir/Game/VsGame.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/VsGame.cpp.o: ../Game/VsGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/panel-pop.dir/Game/VsGame.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/panel-pop.dir/Game/VsGame.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/VsGame.cpp.o -c /home/colin/Documents/panel-pop/Game/VsGame.cpp
 
 CMakeFiles/panel-pop.dir/Game/VsGame.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/panel-pop.dir/Game/VsGame.cpp.o.provides.build: CMakeFiles/panel-pop.
 
 CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.o: ../Game/EndlessGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.o -c /home/colin/Documents/panel-pop/Game/EndlessGame.cpp
 
 CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/panel-pop.dir/Game/EndlessGame.cpp.o.provides.build: CMakeFiles/panel
 
 CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o: ../Game/BoardEventHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o -c /home/colin/Documents/panel-pop/Game/BoardEventHandler.cpp
 
 CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.i: cmake_force
@@ -323,7 +347,7 @@ CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o: ../Config/ConfigHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o -c /home/colin/Documents/panel-pop/Config/ConfigHandler.cpp
 
 CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o.provides.build: CMakeFiles/p
 
 CMakeFiles/panel-pop.dir/SDLContext.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/SDLContext.cpp.o: ../SDLContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/panel-pop.dir/SDLContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/panel-pop.dir/SDLContext.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/SDLContext.cpp.o -c /home/colin/Documents/panel-pop/SDLContext.cpp
 
 CMakeFiles/panel-pop.dir/SDLContext.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/panel-pop.dir/SDLContext.cpp.o.provides.build: CMakeFiles/panel-pop.d
 
 CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o: ../Rendering/Popup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o -c /home/colin/Documents/panel-pop/Rendering/Popup.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.i: cmake_force
@@ -395,7 +419,7 @@ CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o.provides.build: CMakeFiles/panel-
 
 CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o: ../Rendering/EndlessGameRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/EndlessGameRenderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.i: cmake_force
@@ -419,7 +443,7 @@ CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o.provides.build: CMa
 
 CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o: ../Rendering/ChainPopup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o -c /home/colin/Documents/panel-pop/Rendering/ChainPopup.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.i: cmake_force
@@ -443,7 +467,7 @@ CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o.provides.build: CMakeFiles/p
 
 CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.o: ../Rendering/GameRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/GameRenderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.i: cmake_force
@@ -467,7 +491,7 @@ CMakeFiles/panel-pop.dir/Rendering/GameRenderer.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o: ../Rendering/TitleScreenRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/TitleScreenRenderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.i: cmake_force
@@ -491,7 +515,7 @@ CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o.provides.build: CMa
 
 CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: ../Rendering/BoardRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/BoardRenderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.i: cmake_force
@@ -515,7 +539,7 @@ CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.o: ../Rendering/Particle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.o -c /home/colin/Documents/panel-pop/Rendering/Particle.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.i: cmake_force
@@ -539,7 +563,7 @@ CMakeFiles/panel-pop.dir/Rendering/Particle.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.o: ../Rendering/ComboPopup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.o -c /home/colin/Documents/panel-pop/Rendering/ComboPopup.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.i: cmake_force
@@ -563,7 +587,7 @@ CMakeFiles/panel-pop.dir/Rendering/ComboPopup.cpp.o.provides.build: CMakeFiles/p
 
 CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.o: ../Rendering/GbQueueRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/GbQueueRenderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.i: cmake_force
@@ -587,7 +611,7 @@ CMakeFiles/panel-pop.dir/Rendering/GbQueueRenderer.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../Rendering/VsGameRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/VsGameRenderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.i: cmake_force
@@ -611,7 +635,7 @@ CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o: ../Rendering/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o -c /home/colin/Documents/panel-pop/Rendering/Renderer.cpp
 
 CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.i: cmake_force
@@ -635,7 +659,7 @@ CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o: ../States/TitleScreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o -c /home/colin/Documents/panel-pop/States/TitleScreen.cpp
 
 CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.i: cmake_force
@@ -659,7 +683,7 @@ CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.o: ../States/OptionsMenuState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.o -c /home/colin/Documents/panel-pop/States/OptionsMenuState.cpp
 
 CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.i: cmake_force
@@ -683,7 +707,7 @@ CMakeFiles/panel-pop.dir/States/OptionsMenuState.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o: ../States/DemoGameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o -c /home/colin/Documents/panel-pop/States/DemoGameState.cpp
 
 CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.i: cmake_force
@@ -707,7 +731,7 @@ CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o.provides.build: CMakeFiles/p
 
 CMakeFiles/panel-pop.dir/States/StateManager.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/StateManager.cpp.o: ../States/StateManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/panel-pop.dir/States/StateManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/panel-pop.dir/States/StateManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/StateManager.cpp.o -c /home/colin/Documents/panel-pop/States/StateManager.cpp
 
 CMakeFiles/panel-pop.dir/States/StateManager.cpp.i: cmake_force
@@ -731,7 +755,7 @@ CMakeFiles/panel-pop.dir/States/StateManager.cpp.o.provides.build: CMakeFiles/pa
 
 CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o: ../States/VsGameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o -c /home/colin/Documents/panel-pop/States/VsGameState.cpp
 
 CMakeFiles/panel-pop.dir/States/VsGameState.cpp.i: cmake_force
@@ -755,7 +779,7 @@ CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o: ../States/AIGameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o -c /home/colin/Documents/panel-pop/States/AIGameState.cpp
 
 CMakeFiles/panel-pop.dir/States/AIGameState.cpp.i: cmake_force
@@ -779,7 +803,7 @@ CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/States/State.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/State.cpp.o: ../States/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/panel-pop.dir/States/State.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/panel-pop.dir/States/State.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/State.cpp.o -c /home/colin/Documents/panel-pop/States/State.cpp
 
 CMakeFiles/panel-pop.dir/States/State.cpp.i: cmake_force
@@ -803,7 +827,7 @@ CMakeFiles/panel-pop.dir/States/State.cpp.o.provides.build: CMakeFiles/panel-pop
 
 CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.o: ../States/EndlessGameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.o -c /home/colin/Documents/panel-pop/States/EndlessGameState.cpp
 
 CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.i: cmake_force
@@ -827,7 +851,7 @@ CMakeFiles/panel-pop.dir/States/EndlessGameState.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/panel-pop.dir/States/GameState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/GameState.cpp.o: ../States/GameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/panel-pop.dir/States/GameState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/panel-pop.dir/States/GameState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/GameState.cpp.o -c /home/colin/Documents/panel-pop/States/GameState.cpp
 
 CMakeFiles/panel-pop.dir/States/GameState.cpp.i: cmake_force
@@ -851,7 +875,7 @@ CMakeFiles/panel-pop.dir/States/GameState.cpp.o.provides.build: CMakeFiles/panel
 
 CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.o: ../States/FadeTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.o -c /home/colin/Documents/panel-pop/States/FadeTransition.cpp
 
 CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.i: cmake_force
@@ -875,7 +899,7 @@ CMakeFiles/panel-pop.dir/States/FadeTransition.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.o: ../AI/BoardScanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.o -c /home/colin/Documents/panel-pop/AI/BoardScanner.cpp
 
 CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.i: cmake_force
@@ -899,7 +923,7 @@ CMakeFiles/panel-pop.dir/AI/BoardScanner.cpp.o.provides.build: CMakeFiles/panel-
 
 CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.o: ../AI/AIBoardController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.o -c /home/colin/Documents/panel-pop/AI/AIBoardController.cpp
 
 CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.i: cmake_force
@@ -923,7 +947,7 @@ CMakeFiles/panel-pop.dir/AI/AIBoardController.cpp.o.provides.build: CMakeFiles/p
 
 CMakeFiles/panel-pop.dir/InputManager.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputManager.cpp.o: ../InputManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/panel-pop.dir/InputManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/panel-pop.dir/InputManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputManager.cpp.o -c /home/colin/Documents/panel-pop/InputManager.cpp
 
 CMakeFiles/panel-pop.dir/InputManager.cpp.i: cmake_force
@@ -947,7 +971,7 @@ CMakeFiles/panel-pop.dir/InputManager.cpp.o.provides.build: CMakeFiles/panel-pop
 
 CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.o: ../Menus/KeyConfigMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.o -c /home/colin/Documents/panel-pop/Menus/KeyConfigMenu.cpp
 
 CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.i: cmake_force
@@ -971,7 +995,7 @@ CMakeFiles/panel-pop.dir/Menus/KeyConfigMenu.cpp.o.provides.build: CMakeFiles/pa
 
 CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.o: ../Menus/OptionsMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.o -c /home/colin/Documents/panel-pop/Menus/OptionsMenu.cpp
 
 CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.i: cmake_force
@@ -995,7 +1019,7 @@ CMakeFiles/panel-pop.dir/Menus/OptionsMenu.cpp.o.provides.build: CMakeFiles/pane
 
 CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.o: ../Menus/MainMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.o -c /home/colin/Documents/panel-pop/Menus/MainMenu.cpp
 
 CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.i: cmake_force
@@ -1019,7 +1043,7 @@ CMakeFiles/panel-pop.dir/Menus/MainMenu.cpp.o.provides.build: CMakeFiles/panel-p
 
 CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.o: ../Menus/PauseMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.o -c /home/colin/Documents/panel-pop/Menus/PauseMenu.cpp
 
 CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.i: cmake_force
@@ -1043,7 +1067,7 @@ CMakeFiles/panel-pop.dir/Menus/PauseMenu.cpp.o.provides.build: CMakeFiles/panel-
 
 CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.o: ../Menus/MenuItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.o -c /home/colin/Documents/panel-pop/Menus/MenuItem.cpp
 
 CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.i: cmake_force
@@ -1067,7 +1091,7 @@ CMakeFiles/panel-pop.dir/Menus/MenuItem.cpp.o.provides.build: CMakeFiles/panel-p
 
 CMakeFiles/panel-pop.dir/Menus/Menu.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Menus/Menu.cpp.o: ../Menus/Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/panel-pop.dir/Menus/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/panel-pop.dir/Menus/Menu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Menus/Menu.cpp.o -c /home/colin/Documents/panel-pop/Menus/Menu.cpp
 
 CMakeFiles/panel-pop.dir/Menus/Menu.cpp.i: cmake_force
@@ -1091,7 +1115,7 @@ CMakeFiles/panel-pop.dir/Menus/Menu.cpp.o.provides.build: CMakeFiles/panel-pop.d
 
 CMakeFiles/panel-pop.dir/InputState.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputState.cpp.o: ../InputState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/panel-pop.dir/InputState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/panel-pop.dir/InputState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputState.cpp.o -c /home/colin/Documents/panel-pop/InputState.cpp
 
 CMakeFiles/panel-pop.dir/InputState.cpp.i: cmake_force
@@ -1115,7 +1139,7 @@ CMakeFiles/panel-pop.dir/InputState.cpp.o.provides.build: CMakeFiles/panel-pop.d
 
 CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.o: ../InputEvents/InputEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.o -c /home/colin/Documents/panel-pop/InputEvents/InputEvent.cpp
 
 CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.i: cmake_force
@@ -1139,7 +1163,7 @@ CMakeFiles/panel-pop.dir/InputEvents/InputEvent.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.o: ../InputEvents/KeyboardKey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.o -c /home/colin/Documents/panel-pop/InputEvents/KeyboardKey.cpp
 
 CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.i: cmake_force
@@ -1163,7 +1187,7 @@ CMakeFiles/panel-pop.dir/InputEvents/KeyboardKey.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o: ../Config/InputConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o -c /home/colin/Documents/panel-pop/Config/InputConfig.cpp
 
 CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.i: cmake_force
@@ -1187,7 +1211,7 @@ CMakeFiles/panel-pop.dir/Config/InputConfig.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.o: ../InputEvents/JoyButton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.o -c /home/colin/Documents/panel-pop/InputEvents/JoyButton.cpp
 
 CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.i: cmake_force
@@ -1211,7 +1235,7 @@ CMakeFiles/panel-pop.dir/InputEvents/JoyButton.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.o: ../InputEvents/JoyHat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.o -c /home/colin/Documents/panel-pop/InputEvents/JoyHat.cpp
 
 CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.i: cmake_force
@@ -1235,7 +1259,7 @@ CMakeFiles/panel-pop.dir/InputEvents/JoyHat.cpp.o.provides.build: CMakeFiles/pan
 
 CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.o: CMakeFiles/panel-pop.dir/flags.make
 CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.o: ../InputEvents/JoyAxisDirection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.o -c /home/colin/Documents/panel-pop/InputEvents/JoyAxisDirection.cpp
 
 CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.i: cmake_force
@@ -1260,6 +1284,7 @@ CMakeFiles/panel-pop.dir/InputEvents/JoyAxisDirection.cpp.o.provides.build: CMak
 # Object files for target panel-pop
 panel__pop_OBJECTS = \
 "CMakeFiles/panel-pop.dir/Main.cpp.o" \
+"CMakeFiles/panel-pop.dir/debug.cpp.o" \
 "CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o" \
 "CMakeFiles/panel-pop.dir/Game/Block.cpp.o" \
 "CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o" \
@@ -1314,6 +1339,7 @@ panel__pop_OBJECTS = \
 panel__pop_EXTERNAL_OBJECTS =
 
 panel-pop: CMakeFiles/panel-pop.dir/Main.cpp.o
+panel-pop: CMakeFiles/panel-pop.dir/debug.cpp.o
 panel-pop: CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o
 panel-pop: CMakeFiles/panel-pop.dir/Game/Block.cpp.o
 panel-pop: CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o
@@ -1370,7 +1396,7 @@ panel-pop: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 panel-pop: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
 panel-pop: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
 panel-pop: CMakeFiles/panel-pop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable panel-pop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colin/Documents/panel-pop/build-dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable panel-pop"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/panel-pop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1379,6 +1405,7 @@ CMakeFiles/panel-pop.dir/build: panel-pop
 .PHONY : CMakeFiles/panel-pop.dir/build
 
 CMakeFiles/panel-pop.dir/requires: CMakeFiles/panel-pop.dir/Main.cpp.o.requires
+CMakeFiles/panel-pop.dir/requires: CMakeFiles/panel-pop.dir/debug.cpp.o.requires
 CMakeFiles/panel-pop.dir/requires: CMakeFiles/panel-pop.dir/Game/GameEventHandler.cpp.o.requires
 CMakeFiles/panel-pop.dir/requires: CMakeFiles/panel-pop.dir/Game/Block.cpp.o.requires
 CMakeFiles/panel-pop.dir/requires: CMakeFiles/panel-pop.dir/Game/BoardController.cpp.o.requires

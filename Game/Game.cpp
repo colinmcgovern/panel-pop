@@ -6,11 +6,12 @@
  */
 
 #include "Game.h"
-#include "../debug.h"
 
 #include <SDL2/SDL_timer.h>
 
 #include "GameEventHandler.h"
+
+#include "../debug.h"
 
 Game::Game() :
     _eventHandler(new GameEventHandler()),
@@ -22,7 +23,7 @@ Game::Game() :
     _pauseMenu(*this),
     _lastContdownMS(0) {
 
-        debug("Game");
+        debug_print("Game created");
 
         _eventHandler->gameReset();
 }

@@ -54,6 +54,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/colin/Documents/panel-pop/States/StateManager.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/States/StateManager.cpp.o"
   "/home/colin/Documents/panel-pop/States/TitleScreen.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/States/TitleScreen.cpp.o"
   "/home/colin/Documents/panel-pop/States/VsGameState.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/States/VsGameState.cpp.o"
+  "/home/colin/Documents/panel-pop/debug.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/debug.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

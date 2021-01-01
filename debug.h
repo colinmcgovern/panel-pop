@@ -1,3 +1,13 @@
+#include <iostream>
 #include <string>
 
-void debug(string message);
+using namespace std;
+
+#ifndef DEBUG_H
+#define DEBUG_H
+
+void test();
+
+void debug_print(string message);
+
+#endif //DEBUG_H

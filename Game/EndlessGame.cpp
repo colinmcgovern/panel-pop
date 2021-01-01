@@ -6,13 +6,14 @@
 */
 
 #include "EndlessGame.h"
-#include "../debug.h"
 
 #include <SDL2/SDL_timer.h>
 
 #include "../Config/ConfigHandler.h"
 #include "BoardEventHandler.h"
 #include "GameEventHandler.h"
+
+#include "../debug.h"
 
 class BoardEventHandler;
 
@@ -21,7 +22,7 @@ EndlessGame::EndlessGame() :
     _board(),
     _highScore(ConfigHandler::getInstance().getEndlessHighScore()) {
 
-        debug("EndlessGame");
+        debug_print("EndlessGame created");
 
 }
 

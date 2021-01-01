@@ -32,10 +32,10 @@ Board::Board() :
     _score(0),
     _countdownState(3) {
 
-    	debug("Board");
-    	
-	    fillRandom();
-	    fillBufferRow();
+        debug_print("Board created");
+
+        fillRandom();
+        fillBufferRow();
 }
 
 void Board::setEventHandler(BoardEventHandler *eh) {

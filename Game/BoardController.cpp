@@ -9,7 +9,7 @@
 #include "../debug.h"
 
 BoardController::BoardController(Board &b) : _board(b) {
-	debug("BoardController");
+	debug_print("BoardController created");
 }
 
 BoardController::~BoardController() {
