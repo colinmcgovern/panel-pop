@@ -24,6 +24,7 @@ set(SRCS
         Game/BoardEventHandler.cpp
         Config/ConfigHandler.cpp
         SDLContext.cpp
+        Rendering/helper.cpp
         Rendering/Popup.cpp
         Rendering/EndlessGameRenderer.cpp
         Rendering/ChainPopup.cpp

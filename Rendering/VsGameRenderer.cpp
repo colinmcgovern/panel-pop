@@ -14,6 +14,7 @@
 #include <cstdint>
 #include <iomanip>
 #include <sstream>
+#include <utility>
 #include <math.h>
 
 #include "../Game/Board.h"
@@ -21,6 +22,10 @@
 #include "../Game/VsGame.h"
 #include "../SDLContext.h"
 #include "VsGameRenderer.h"
+
+#include "helper.h"
+
+using namespace std;
 
 VsGameRenderer::VsGameRenderer(VsGame &game) :
     GameRenderer(game),
@@ -33,9 +38,9 @@ VsGameRenderer::VsGameRenderer(VsGame &game) :
     _b1Shake(0) {
     _texture = SDL_CreateTexture(_SDLRenderer, SDL_PIXELFORMAT_RGBA8888,
                                  SDL_TEXTUREACCESS_TARGET, 640, 480);
-    _bg = _SDLContext.makeTextureFromImage("assets/bg1.png");
-    _2pbg = _SDLContext.makeTextureFromImage("assets/2p.png");
-    SDL_SetTextureBlendMode(_2pbg, SDL_BLENDMODE_BLEND);
+    _bg = _SDLContext.makeTextureFromImage("assets/training_bg.png");
+
+    
 }
 
 void VsGameRenderer::tick() {
@@ -57,7 +62,7 @@ SDL_Texture *VsGameRenderer::renderGame() {
     SDL_RenderClear(_SDLRenderer);
 
     SDL_RenderCopy(_SDLRenderer, _bg, NULL, NULL);
-    SDL_RenderCopy(_SDLRenderer, _2pbg, NULL, NULL);
+    //SDL_RenderCopy(_SDLRenderer, _2pbg, NULL, NULL);
 
     if (!_game.isPaused()) {
 
@@ -134,7 +139,7 @@ void VsGameRenderer::renderMatchPoints() {
 
 VsGameRenderer::~VsGameRenderer() {
     SDL_DestroyTexture(_bg);
-    SDL_DestroyTexture(_2pbg);
+    //SDL_DestroyTexture(_2pbg);
 }
 
 void VsGameRenderer::shakeBoard(int id, int duration) {
@@ -160,6 +165,7 @@ void VsGameRenderer::renderBoard(int id) {
     SDL_Texture *boardTexture;
     pos.h = BoardRenderer::BOARD_HEIGHT;
     pos.w = BoardRenderer::BOARD_WIDTH;
+
     if (id == 0) {
         pos.x = BOARD0_X;
         pos.y = BOARD0_Y;
@@ -188,4 +194,27 @@ void VsGameRenderer::renderBoard(int id) {
 
     SDL_SetRenderTarget(_SDLRenderer, _texture);
     SDL_RenderCopy(_SDLRenderer, boardTexture, &src, &pos);
+
+    cout << "1" << endl;
+    vector<Point> points;
+    points.push_back(Point(pos.x,pos.y));
+    points.push_back(Point(pos.x,pos.y+pos.h));
+    points.push_back(Point(pos.x+pos.w,pos.y));
+    points.push_back(Point(pos.x+pos.w,pos.y+pos.h));
+
+    cout << "2" << endl;
+
+    PolygonShape ps(points);
+
+    cout << "3" << endl;
+
+    SDL_Color color = {.r = 255, .g = 255, .b = 255, .a = 255 };
+    
+    cout << "4" << endl;
+
+    DrawFilledPolygon(ps,color,_SDLRenderer);
+
+    cout << "5" << endl;
+
+    SDL_RenderPresent(_SDLRenderer);
 }

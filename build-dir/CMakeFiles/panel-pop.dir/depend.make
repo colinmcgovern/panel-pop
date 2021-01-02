@@ -645,6 +645,7 @@ CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: ../Rendering/Particle.h
 CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: ../Rendering/Popup.h
 CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: ../Rendering/Renderer.h
 CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: ../SDLContext.h
+CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o: ../debug.h
 
 CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o: ../Rendering/ChainPopup.cpp
 CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o: ../Rendering/ChainPopup.h
@@ -754,7 +755,12 @@ CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../Rendering/Popup.h
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../Rendering/Renderer.h
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../Rendering/VsGameRenderer.cpp
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../Rendering/VsGameRenderer.h
+CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../Rendering/helper.h
 CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o: ../SDLContext.h
+
+CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o: ../Rendering/helper.cpp
+CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o: ../Rendering/helper.h
+CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o: ../SDLContext.h
 
 CMakeFiles/panel-pop.dir/SDLContext.cpp.o: ../Config/ConfigHandler.h
 CMakeFiles/panel-pop.dir/SDLContext.cpp.o: ../Config/InputConfig.h

@@ -1176,6 +1176,33 @@ Rendering/VsGameRenderer.cpp.s:
 	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.s
 .PHONY : Rendering/VsGameRenderer.cpp.s
 
+Rendering/helper.o: Rendering/helper.cpp.o
+
+.PHONY : Rendering/helper.o
+
+# target to build an object file
+Rendering/helper.cpp.o:
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o
+.PHONY : Rendering/helper.cpp.o
+
+Rendering/helper.i: Rendering/helper.cpp.i
+
+.PHONY : Rendering/helper.i
+
+# target to preprocess a source file
+Rendering/helper.cpp.i:
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/Rendering/helper.cpp.i
+.PHONY : Rendering/helper.cpp.i
+
+Rendering/helper.s: Rendering/helper.cpp.s
+
+.PHONY : Rendering/helper.s
+
+# target to generate assembly for a file
+Rendering/helper.cpp.s:
+	$(MAKE) -f CMakeFiles/panel-pop.dir/build.make CMakeFiles/panel-pop.dir/Rendering/helper.cpp.s
+.PHONY : Rendering/helper.cpp.s
+
 SDLContext.o: SDLContext.cpp.o
 
 .PHONY : SDLContext.o
@@ -1626,6 +1653,9 @@ help:
 	@echo "... Rendering/VsGameRenderer.o"
 	@echo "... Rendering/VsGameRenderer.i"
 	@echo "... Rendering/VsGameRenderer.s"
+	@echo "... Rendering/helper.o"
+	@echo "... Rendering/helper.i"
+	@echo "... Rendering/helper.s"
 	@echo "... SDLContext.o"
 	@echo "... SDLContext.i"
 	@echo "... SDLContext.s"

@@ -8,6 +8,7 @@
 #include "BoardRenderer.h"
 
 #include <math.h>
+#include <string>
 #include <stddef.h>
 #include <SDL2/SDL_blendmode.h>
 #include <SDL2/SDL_pixels.h>
@@ -18,6 +19,8 @@
 #include "../Game/Block.h"
 #include "../Game/GarbageBlock.h"
 #include "../SDLContext.h"
+
+#include "../debug.h"
 
 const int BoardRenderer::BOARD_WIDTH = 192;
 const int BoardRenderer::BOARD_HEIGHT = 384;
@@ -142,8 +145,8 @@ void BoardRenderer::drawBlocks() {
             pos.h = TILE_SIZE;
             pos.w = TILE_SIZE;
             pos.x = j * TILE_SIZE;
-            pos.y = (BOARD_HEIGHT - (i + 1) * TILE_SIZE)
-                - _board.getStackOffset();
+            pos.y = (BOARD_HEIGHT - (i + 1) * TILE_SIZE) - _board.getStackOffset();
+
             if (_board.getTile(i, j).type == BLOCK) {
                 const Block &block = _board.getTile(i, j).b;
 

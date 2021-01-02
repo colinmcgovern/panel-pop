@@ -43,6 +43,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/colin/Documents/panel-pop/Rendering/Renderer.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/Rendering/Renderer.cpp.o"
   "/home/colin/Documents/panel-pop/Rendering/TitleScreenRenderer.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/Rendering/TitleScreenRenderer.cpp.o"
   "/home/colin/Documents/panel-pop/Rendering/VsGameRenderer.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o"
+  "/home/colin/Documents/panel-pop/Rendering/helper.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o"
   "/home/colin/Documents/panel-pop/SDLContext.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/SDLContext.cpp.o"
   "/home/colin/Documents/panel-pop/States/AIGameState.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/States/AIGameState.cpp.o"
   "/home/colin/Documents/panel-pop/States/DemoGameState.cpp" "/home/colin/Documents/panel-pop/build-dir/CMakeFiles/panel-pop.dir/States/DemoGameState.cpp.o"

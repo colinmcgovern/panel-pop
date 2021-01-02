@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/panel-pop.dir/Game/BoardEventHandler.cpp.o"
   "CMakeFiles/panel-pop.dir/Config/ConfigHandler.cpp.o"
   "CMakeFiles/panel-pop.dir/SDLContext.cpp.o"
+  "CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o"
   "CMakeFiles/panel-pop.dir/Rendering/Popup.cpp.o"
   "CMakeFiles/panel-pop.dir/Rendering/EndlessGameRenderer.cpp.o"
   "CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o"

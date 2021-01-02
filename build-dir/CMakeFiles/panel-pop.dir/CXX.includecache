@@ -547,6 +547,8 @@ BoardRenderer.h
 /home/colin/Documents/panel-pop/Rendering/BoardRenderer.h
 math.h
 -
+string
+-
 stddef.h
 -
 SDL2/SDL_blendmode.h
@@ -565,6 +567,8 @@ cstdint
 /home/colin/Documents/panel-pop/Game/GarbageBlock.h
 ../SDLContext.h
 /home/colin/Documents/panel-pop/SDLContext.h
+../debug.h
+/home/colin/Documents/panel-pop/debug.h
 
 /home/colin/Documents/panel-pop/Rendering/BoardRenderer.h
 list
@@ -731,6 +735,8 @@ iomanip
 -
 sstream
 -
+utility
+-
 math.h
 -
 ../Game/Board.h
@@ -743,6 +749,8 @@ math.h
 /home/colin/Documents/panel-pop/SDLContext.h
 VsGameRenderer.h
 /home/colin/Documents/panel-pop/Rendering/VsGameRenderer.h
+helper.h
+/home/colin/Documents/panel-pop/Rendering/helper.h
 
 /home/colin/Documents/panel-pop/Rendering/VsGameRenderer.h
 BoardRenderer.h
@@ -751,6 +759,18 @@ GameRenderer.h
 /home/colin/Documents/panel-pop/Rendering/GameRenderer.h
 GbQueueRenderer.h
 /home/colin/Documents/panel-pop/Rendering/GbQueueRenderer.h
+
+/home/colin/Documents/panel-pop/Rendering/helper.cpp
+helper.h
+/home/colin/Documents/panel-pop/Rendering/helper.h
+
+/home/colin/Documents/panel-pop/Rendering/helper.h
+../SDLContext.h
+/home/colin/Documents/panel-pop/SDLContext.h
+iostream
+-
+vector
+-
 
 /home/colin/Documents/panel-pop/SDLContext.cpp
 SDLContext.h

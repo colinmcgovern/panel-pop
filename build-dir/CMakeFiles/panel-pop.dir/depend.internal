@@ -646,6 +646,7 @@ CMakeFiles/panel-pop.dir/Rendering/BoardRenderer.cpp.o
  /home/colin/Documents/panel-pop/Rendering/Popup.h
  /home/colin/Documents/panel-pop/Rendering/Renderer.h
  /home/colin/Documents/panel-pop/SDLContext.h
+ /home/colin/Documents/panel-pop/debug.h
 CMakeFiles/panel-pop.dir/Rendering/ChainPopup.cpp.o
  /home/colin/Documents/panel-pop/Rendering/ChainPopup.cpp
  /home/colin/Documents/panel-pop/Rendering/ChainPopup.h
@@ -755,6 +756,11 @@ CMakeFiles/panel-pop.dir/Rendering/VsGameRenderer.cpp.o
  /home/colin/Documents/panel-pop/Rendering/Renderer.h
  /home/colin/Documents/panel-pop/Rendering/VsGameRenderer.cpp
  /home/colin/Documents/panel-pop/Rendering/VsGameRenderer.h
+ /home/colin/Documents/panel-pop/Rendering/helper.h
+ /home/colin/Documents/panel-pop/SDLContext.h
+CMakeFiles/panel-pop.dir/Rendering/helper.cpp.o
+ /home/colin/Documents/panel-pop/Rendering/helper.cpp
+ /home/colin/Documents/panel-pop/Rendering/helper.h
  /home/colin/Documents/panel-pop/SDLContext.h
 CMakeFiles/panel-pop.dir/SDLContext.cpp.o
  /home/colin/Documents/panel-pop/Config/ConfigHandler.h
