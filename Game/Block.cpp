@@ -21,7 +21,7 @@ Block::Block() :
     _explosionTicks(0),
     _explosionAnimTicks(0),
     _explosionTimer(0) {
-        debug_print("Block created");
+    	//debug_print("Block created");
 }
 
 Block::~Block() {

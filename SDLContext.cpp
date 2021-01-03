@@ -126,7 +126,9 @@ bool SDLContext::loadSpriteSheet() {
 
 bool SDLContext::loadFonts() {
     _fontPs = TTF_OpenFont("assets/fonts/Vanilla.ttf", 16);
+
     _fontSquare = TTF_OpenFont("assets/fonts/Vanilla.ttf", 48);
+
     if (_fontPs == NULL || _fontSquare == NULL) {
         std::cout << TTF_GetError();
         return false;
@@ -159,11 +161,15 @@ SDL_Texture *SDLContext::makeTextureFromImage(std::string path) {
 
 void SDLContext::renderText(std::string text, SDL_Color color, TTF_Font *font,
                             int x, int y) {
+
     SDL_Texture *texture = makeTextureFromFont(text, color, font);
     SDL_Rect r = {x, y, 0, 0};
     SDL_QueryTexture(texture, NULL, NULL, &r.w, &r.h);
+    r.x -= r.w/2;
     SDL_RenderCopy(_renderer, texture, NULL, &r);
     SDL_DestroyTexture(texture);
+
+    
 }
 
 void SDLContext::renderTextureToWindow(SDL_Texture *texture) {
